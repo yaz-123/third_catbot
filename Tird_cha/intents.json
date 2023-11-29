@@ -1,0 +1,164 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "how you can help me? ",
+          "What kinds of services are there?",
+          "What do you provide?"
+        ],
+        "responses": [
+          "i can gaud you to start your bisni",
+          "i have knolwedge to how open busniss"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "what is your name?",
+          "name of you?",
+          "who are you?"
+        ],
+        "responses": [
+          "my name is third",
+          "you can call me third"
+        ]
+      },
+      {
+        "tag": "Advertising",
+        "patterns": [
+          "How can I create effective ads on social media for my business?",
+          "how can i make ads for my business  ?",
+          "who are you?"
+        ],
+        "responses": [
+          "1-Define Your Goals\n2-Know Your Target Audience\n3-Choose the Right Platforms\n4-Set a Budget and Schedule\n5-Comply with Advertising Policies from",
+          "you can call me third"
+        ]
+      },
+      {
+        "tag": "feedBack",
+        "patterns": [
+          "How can I effectively handle customer feedback and reviews?",
+          "give me sum hint about dealing with the feedback from my customers",
+          "give me sum hint about feedback from my customers",
+          "Tell me about using feedback to improve my business"
+          
+        ],
+        "responses": [
+          "1-Listen actively\n2-Respond promptly\n3-be professional and empathetic\n4-Take feedback seriously\n5-Encourage constructive feedback\n6-Implement changes\n7-Use technology to streamline feedback management",
+          ""  
+        ]
+      },
+      {
+        "tag": "number of restrunts",
+        "patterns": [
+          "how many restrunts in riyadh?",
+          "from whare yoy now this number of restrunts?",
+          "could you give the number of restrunts in riyadh?",
+          "give me the number of restrunts in riyadh"
+          
+        ],
+        "responses": [
+          "Based on the statistics that we applied to the data provided by open data, there are approximately 19,000 restaurants in Riyadh.",
+          "19,000 restaurants in Riyadh"
+        ]
+      },
+      {
+        "tag": "age of the most people in riyadh?  ",
+        "patterns": [
+          "what is the ",
+          "from whare yoy now this number of restrunts?",
+          "could you give the number of restrunts in riyadh?",
+          "give me the number of restrunts in riyadh"
+          
+        ],
+        "responses": [
+          "Based on the statistics that we applied to the data provided by open data, there are approximately 19,000 restaurants in Riyadh.",
+          "19,000 restaurants in Riyadh"
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": [
+          "The number of males and females in Riyadh and their ages?",
+          "how many famale and male in Riyadh?",
+          "peaple counts and their ages an Riyadh"
+        ],
+        "responses": [
+          "Based on the statistics that we applied to the data provided by open data, the number of males and females is approximately 5,500,388 males and females of various ages. ",
+          "5,500,388 males and females of various ages."
+        ]
+      },
+      {
+        "tag": "supplyChain",
+        "patterns": [
+          "How can I create a  supplychain for my business?",
+          "do you know how to creat supply chain ? ",
+          "what do you recommend me to creat supplychain  for my business ?",
+          ""
+        ],
+        "responses": [
+          "1.Choose Your Inventory Assortment\n2.Forecast Demand\n3.Size Your Inventory Buys\n 4.Track Your Purchase Orders\n 5.Track Your Inventory\n6.Understand Your Inventory Position\n7.Fulfill Your Orders",
+          ""
+        ]
+      },
+      
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
